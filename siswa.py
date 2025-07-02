@@ -238,8 +238,6 @@ if __name__ == "__main__":
     if 'logged_in' not in st.session_state:
         st.session_state.logged_in = True
         st.session_state.role = "admin" # Atau "guru" jika ingin tes akses
-        st.session_state.username = "test_admin_siswa"
-        st.session_state.user_id = 1 # Contoh user_id
     
     # Inisialisasi db jika belum ada tabelnya
     # init_db() 

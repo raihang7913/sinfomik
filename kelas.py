@@ -142,7 +142,7 @@ if __name__ == "__main__":
     # Untuk pengujian lokal (opsional)
     if 'logged_in' not in st.session_state:
         st.session_state.logged_in = True
-        st.session_state.role = "admin"
-        st.session_state.username = "test_admin_kelas"
+#        st.session_state.role = "admin"
+#        st.session_state.username = "test_admin_kelas"
     
     show_kelas()
